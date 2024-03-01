@@ -15,8 +15,9 @@ class MyApp extends StatelessWidget {
           ),
           backgroundColor: const Color.fromRGBO(1, 139, 147, 0.7),
           shape: const RoundedRectangleBorder(
-            borderRadius: BorderRadius.all(
-              Radius.circular(30),
+            borderRadius: BorderRadius.only(
+              bottomLeft: Radius.circular(20),
+              bottomRight: Radius.circular(20),
             ),
           ),
         ),
