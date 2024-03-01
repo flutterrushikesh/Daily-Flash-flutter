@@ -10,11 +10,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          actions: const [
-            Icon(Icons.account_box),
-          ],
           title: const Text("PhonePe"),
+          centerTitle: true,
+          actions: [Icon(Icons)],
         ),
+        
       ),
     );
   }
