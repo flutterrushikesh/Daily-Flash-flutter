@@ -14,6 +14,12 @@ class MyApp extends StatelessWidget {
             Icons.account_box_rounded,
             size: 30,
           ),
+          actions: const [
+            Icon(
+              Icons.favorite_border_rounded,
+              size: 30,
+            ),
+          ],
           title: const Text(
             "PhonePe",
             style: TextStyle(
