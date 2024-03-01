@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
             "Hello students",
           ),
           backgroundColor: const Color.fromRGBO(1, 139, 147, 0.7),
-          shape: RoundedRectangleBorder(
+          shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.all(
               Radius.circular(30),
             ),
