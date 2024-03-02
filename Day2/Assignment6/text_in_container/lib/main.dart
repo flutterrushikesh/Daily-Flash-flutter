@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: const Text(
-            "Edge & Text",
+            "Text in Container",
             style: TextStyle(
               fontWeight: FontWeight.w700,
               fontSize: 25,
@@ -30,6 +30,12 @@ class MyApp extends StatelessWidget {
               border: Border.all(
                 width: 3,
                 color: Colors.red,
+              ),
+            ),
+            child: const Center(
+              child: Text(
+                "Hello core2web",
+                style: TextStyle(fontSize: 20),
               ),
             ),
           ),
