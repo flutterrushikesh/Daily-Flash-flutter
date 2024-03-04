@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("cicle gradient"),
+          title: const Text("circle gradient"),
           backgroundColor: Colors.blue,
         ),
         body: Center(
