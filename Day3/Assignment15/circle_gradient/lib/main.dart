@@ -20,8 +20,14 @@ class MyApp extends StatelessWidget {
             decoration: const BoxDecoration(
               shape: BoxShape.circle,
               gradient: LinearGradient(
-                stops: [0.5, 0.5],
-                colors: [Colors.red, Colors.green],
+                stops: [
+                  0.5,
+                  0.5,
+                ],
+                colors: [
+                  Colors.red,
+                  Colors.green,
+                ],
               ),
             ),
           ),
