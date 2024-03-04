@@ -23,10 +23,11 @@ class MainApp extends StatelessWidget {
               color: Colors.amber,
               boxShadow: [
                 BoxShadow(
-                    color: Colors.grey,
-                    spreadRadius: 5,
-                    blurRadius: 10,
-                    offset: Offset(0, -20)),
+                  color: Colors.grey,
+                  spreadRadius: 5,
+                  blurRadius: 10,
+                  offset: Offset(0, -20),
+                ),
               ],
             ),
           ),
