@@ -12,11 +12,19 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
+        appBar: AppBar(
+          title: const Text("Shadow Elevated Button"),
+          backgroundColor: Colors.amber,
+        ),
         body: Center(
           child: ElevatedButton(
-            style: const ButtonStyle(
-              shadowColor: MaterialStatePropertyAll(Colors.red),
+            style: ButtonStyle(
+              backgroundColor: MaterialStatePropertyAll(
+                Colors.blue.shade100,
+              ),
+              shadowColor: const MaterialStatePropertyAll(Colors.red),
               shape: MaterialStatePropertyAll(
                 RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(
