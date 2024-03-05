@@ -19,7 +19,9 @@ class MainApp extends StatelessWidget {
         body: Center(
           child: ElevatedButton(
             style: const ButtonStyle(
-              minimumSize: MaterialStatePropertyAll(Size(200, 200)),
+              minimumSize: MaterialStatePropertyAll(
+                Size(200, 200),
+              ),
               side: MaterialStatePropertyAll(
                 BorderSide(color: Colors.red),
               ),
