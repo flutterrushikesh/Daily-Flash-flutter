@@ -112,37 +112,43 @@ class _MultipleCardsState extends State {
                   color: Colors.black,
                 ),
               ),
-              child: Column(children: [
-                Row(
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          cards[index]['title'],
-                        ),
-                        const SizedBox(height: 5),
-                        Text(cards[index]['description'])
-                      ],
-                    ),
-                    const Spacer(),
-                    Row(
-                      children: [
-                        Container(
-                          height: 50,
-                          width: 50,
-                          decoration: BoxDecoration(
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            cards[index]['title'],
+                          ),
+                          const SizedBox(height: 5),
+                          Text(
+                            cards[index]['description'],
+                          )
+                        ],
+                      ),
+                      const Spacer(),
+                      Row(
+                        children: [
+                          Container(
+                            height: 50,
+                            width: 50,
+                            decoration: BoxDecoration(
                               shape: BoxShape.circle,
                               image: DecorationImage(
-                                  image: NetworkImage(
-                                cards[index]['image'],
-                              ))),
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ]),
+                                image: NetworkImage(
+                                  cards[index]['image'],
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ],
+              ),
             ),
           );
         },
