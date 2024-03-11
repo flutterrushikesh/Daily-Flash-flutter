@@ -25,17 +25,19 @@ class MainApp extends StatelessWidget {
         body: Container(
           margin: const EdgeInsets.all(20),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            // crossAxisAlignment: ,
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   Container(
-                    height: 150,
+                    height: 250,
                     width: 150,
                     color: Colors.yellow,
                   ),
                   Container(
-                    height: 150,
+                    height: 250,
                     width: 150,
                     color: Colors.red,
                   ),
@@ -43,7 +45,7 @@ class MainApp extends StatelessWidget {
               ),
               Container(
                 margin: const EdgeInsets.all(30),
-                height: 100,
+                height: 150,
                 width: 300,
                 color: Colors.green,
               ),
@@ -51,12 +53,12 @@ class MainApp extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   Container(
-                    height: 150,
+                    height: 250,
                     width: 150,
                     color: Colors.purple,
                   ),
                   Container(
-                    height: 150,
+                    height: 250,
                     width: 150,
                     color: Colors.blue,
                   ),
