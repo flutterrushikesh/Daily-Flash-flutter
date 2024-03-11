@@ -20,7 +20,7 @@ class MainApp extends StatelessWidget {
           children: [
             Container(
               margin: const EdgeInsets.all(20),
-              padding: const EdgeInsets.all(10),
+              padding: const EdgeInsets.all(11),
               decoration: BoxDecoration(
                 border: Border.all(
                   color: Colors.black,
