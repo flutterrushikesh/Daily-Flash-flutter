@@ -21,7 +21,6 @@ class MainApp extends StatelessWidget {
             scrollDirection: Axis.horizontal,
             children: [
               Row(
-                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
                     margin: const EdgeInsets.all(20),
