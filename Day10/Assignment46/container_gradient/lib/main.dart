@@ -9,10 +9,26 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
+        appBar: AppBar(
+          title: const Text("Gradient"),
+          backgroundColor: Colors.blue,
+        ),
         body: Center(
-          child: Text('Hello World!'),
+          child: Container(
+            height: 150,
+            width: 150,
+            decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                colors: [
+                  Colors.red,
+                  Colors.blue,
+                ],
+              ),
+            ),
+          ),
         ),
       ),
     );
