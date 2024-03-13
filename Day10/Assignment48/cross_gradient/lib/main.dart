@@ -10,7 +10,12 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
+        appBar: AppBar(
+          title: const Text("Cross gradient"),
+          backgroundColor: Colors.blue,
+        ),
         body: Center(
           child: Container(
             height: 200,
@@ -21,6 +26,9 @@ class MainApp extends StatelessWidget {
                   Colors.green,
                   Colors.yellow,
                 ],
+                stops: [0.5, 0.5],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
               ),
             ),
           ),
