@@ -22,10 +22,9 @@ class MainApp extends StatelessWidget {
             width: 200,
             decoration: const BoxDecoration(
               gradient: LinearGradient(
-                colors: [Colors.red, Colors.blue],
-                begin: Alignment.topCenter,
-                end: Alignment.bottomCenter,
-              ),
+                  colors: [Colors.red, Colors.blue],
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter),
             ),
           ),
         ),
