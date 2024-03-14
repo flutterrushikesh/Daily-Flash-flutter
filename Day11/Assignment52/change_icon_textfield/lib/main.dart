@@ -26,12 +26,16 @@ class MainApp extends StatelessWidget {
                 suffix: Icon(Icons.search),
                 enabledBorder: OutlineInputBorder(
                   borderRadius: BorderRadius.all(
-                    Radius.circular(20),
+                    Radius.circular(
+                      20,
+                    ),
                   ),
                 ),
                 focusedBorder: OutlineInputBorder(
                   borderRadius: BorderRadius.all(
-                    Radius.circular(20),
+                    Radius.circular(
+                      20,
+                    ),
                   ),
                 ),
               ),
