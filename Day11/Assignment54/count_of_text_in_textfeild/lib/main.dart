@@ -18,8 +18,8 @@ class MainApp extends StatelessWidget {
         ),
         body: const Center(
           child: TextField(
+            maxLength: 20,
             decoration: InputDecoration(
-              counter: Text("0/20"),
               label: Text("Enter your name"),
               enabledBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.all(
