@@ -9,10 +9,16 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Center(
+        appBar: AppBar(
+          title: const Text("Many lines in textfield"),
+          backgroundColor: Colors.blue,
+        ),
+        body: const Center(
           child: TextField(
+            maxLines: 5,
             decoration: InputDecoration(
               label: Text("Enter your name"),
               enabledBorder: OutlineInputBorder(
