@@ -16,7 +16,7 @@ class MainApp extends StatelessWidget {
           backgroundColor: Colors.blue,
           title: const Text("Color in TextField"),
         ),
-        body: Center(
+        body: const Center(
           child: TextField(
             decoration: InputDecoration(
               filled: true,
