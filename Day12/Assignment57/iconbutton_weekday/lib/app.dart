@@ -58,7 +58,6 @@ class _IconButtonDemoState extends State {
                       const SizedBox(
                         height: 20,
                       ),
-                      // Text("Rushi")
                       Text(weekList[index]["days"]),
                     ],
                   );
