@@ -28,7 +28,6 @@ class _IconButtonDemoState extends State {
                 suffixIcon: IconButton(
                   onPressed: () {
                     setState(() {
-                      print(weekList);
                       weekList.add({'days': daysController.text});
                     });
                     daysController.clear();
