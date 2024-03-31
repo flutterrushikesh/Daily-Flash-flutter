@@ -23,6 +23,7 @@ class _IconButtonDemoState extends State {
         child: Column(
           children: [
             TextField(
+              controller: daysController,
               decoration: InputDecoration(
                 suffixIcon: IconButton(
                   onPressed: () {
@@ -30,6 +31,7 @@ class _IconButtonDemoState extends State {
                       print(weekList);
                       weekList.add({'days': daysController.text});
                     });
+                    daysController.clear();
                   },
                   icon: const Icon(
                     Icons.done,
