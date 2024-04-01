@@ -10,11 +10,21 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+      home: PhoneValidation(),
+      debugShowCheckedModeBanner: false,
     );
+  }
+}
+
+class PhoneValidation extends StatefulWidget {
+  const PhoneValidation({super.key});
+  @override
+  State createState() => _PhoneValidationState();
+}
+
+class _PhoneValidationState extends State {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold();
   }
 }
